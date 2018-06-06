@@ -1,13 +1,3 @@
-/*
-  Do not make manual changes to this stylesheet.
-  To make style changes, edit the "style-dev.less" file while previewing the /dev_template/index.html file.
-  When you're ready, use http://lesscss.org/less-preview/ to compile the .less file into CSS and
-  replace the CSS below this message with the output.
-  Note: for background images from the assets folder.. remove "assets" from the url() delaration
-  This -    background: url(../assets/images/nav-selected-indicator.svg);
-  Becomes - background: url(../images/nav-selected-indicator.svg);
-*/
-
 body {
   font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -30,11 +20,11 @@ h1 {
 h2 {
   font-size: 32px;
   font-style: italic;
-  color: #007524;
+  color: #00c13b;
   margin: 30px 0 20px 0;
 }
 h3 {
-  color: #007524;
+  color: #00c13b;
   font-size: 20px;
   font-weight: 500;
   margin: 20px 0 8px 0;
@@ -108,7 +98,7 @@ article {
   display: flex;
   margin: 35px 0 40px 0;
   background: #86c100;
-  color: #007524;
+  color: #00c13b;
   padding: 30px 35px;
 }
 .example .title {
@@ -175,7 +165,7 @@ article {
 }
 .meta-information .details time,
 .meta-information .details .difficulty {
-  color: #007524;
+  color: #00c13b;
   font-weight: 700;
   margin-bottom: 3px;
   display: block;
@@ -202,7 +192,7 @@ article {
   margin-bottom: 0;
 }
 aside {
-  background: #00c13b;
+  background: #008e2b;
   position: fixed;
   height: 100vh;
   width: 230px;
@@ -232,12 +222,12 @@ nav a {
 }
 nav a.selected,
 nav a.selected:hover {
-  background: #007524;
+  background: #00c13b;
   color: white;
   font-weight: 500;
 }
 nav a:hover {
-  background: #008e2b;
+  background: #007524;
   color: #ffffff;
 }
 nav a:after {
@@ -271,7 +261,7 @@ nav a.selected:after {
   font-size: 22px;
   margin: 0 0 6px 0;
   padding: 0;
-  color: #007524;
+  color: #00c13b;
 }
 .steps time {
   margin: 0 0 10px 0;
@@ -316,7 +306,7 @@ nav a.selected:after {
   top: -10px;
   font-weight: 400;
   font-size: 22px;
-  color: #007524;
+  color: #00c13b;
   border: solid 2px #0fff58;
   height: 43px;
   width: 43px;
@@ -438,7 +428,7 @@ table.altrowstable {
   font-size: 11px;
   color: #333333;
   border-width: 1px;
-  border-color: #007524;
+  border-color: #00c13b;
   border-collapse: collapse;
   width: 100%;
 }
@@ -446,13 +436,13 @@ table.altrowstable th {
   border-width: 1px;
   padding: 8px;
   border-style: solid;
-  border-color: #007524;
+  border-color: #00c13b;
 }
 table.altrowstable td {
   border-width: 1px;
   padding: 8px;
   border-style: solid;
-  border-color: #007524;
+  border-color: #00c13b;
 }
 .oddrowcolor {
   background-color: #0fff58;
@@ -460,4 +450,3 @@ table.altrowstable td {
 .evenrowcolor {
   background-color: #86c100;
 }
-
